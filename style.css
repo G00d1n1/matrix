@@ -1,0 +1,9 @@
+.matrix {width: 600px; height: 200px; margin: 2rem auto; background-color: black; border: 1px solid black; position: relative; overflow: hidden;}
+.matrix-column{width: 20px; height: auto; text-align: center;position: absolute; background-color: transparent;}
+.matrix-char {font-size: 20px; color: greenyellow; line-height: 1;animation: aniMatrix linear; animation-duration: 2s;}
+@keyframes aniMatrix{
+    0%{opacity: 1}
+    100%{opacity: 0;}
+}
+
+
